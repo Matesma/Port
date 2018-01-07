@@ -65,7 +65,7 @@ header h1 {
     flex-grow: 1;
     flex-basis: 400px;
     height: 10em;
-    width: 50vw;
+    width: 60vw;
     text-align: center;
     margin: 5px;
     padding: 0em 2em 0em 2em;
@@ -128,7 +128,8 @@ header h1 {
 
 #content,
 #content2,
-#content4 {
+#content4,
+#ending1 {
     background-color: #313131;
 }
 
@@ -245,6 +246,18 @@ iframe {
     }
 }
 
+
+@media screen and (max-width:750px) {
+    .video {
+        height: 7em;
+    }
+    #blank3 {
+        padding-top: 3em;
+    }
+
+}
+
+
 @media screen and (max-width:575px) {
     #blank1,
     #blank3 {
@@ -267,4 +280,41 @@ iframe {
     #blank2 {
         padding-top: 5em;
     }
+}
+
+@media screen and (max-width:1205px) {
+    .ux {
+        height: 7em;
+    }
+    #blank4 {
+        padding-top: 3em;
+    }
+
+}
+
+@media screen and (max-width:650px) {
+    .ux {
+        height: 9em;
+    }
+    #blank4 {
+        padding-top: 5em;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+    .ux {
+        height: 10em;
+    }
+    #blank4 {
+        padding-top: 6em;
+    }
+
+}
+
+@media screen and (min-width:1000px) {
+    .tema a {
+        margin: 0 17vw 0 17vw;
+    }
+
 }
