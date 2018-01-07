@@ -138,10 +138,6 @@ header h1 {
 
 /*--------------DESIGN-------------*/
 
-p {
-    font-size: 2vw;
-}
-
 .tema a {
     font-size: 18vw;
 }
@@ -152,7 +148,7 @@ a {
 }
 
 p {
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
     font-family: 'Roboto';
     color: #ffffff;
