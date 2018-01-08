@@ -69,6 +69,7 @@ header h1 {
     text-align: center;
     margin: 5px;
     padding: 0em 2em 0em 2em;
+    display: none;
 }
 
 
@@ -124,6 +125,7 @@ header h1 {
 #content1,
 #content3 {
     background-color: #171717;
+    display: none;
 }
 
 #content,
@@ -131,9 +133,8 @@ header h1 {
 #content4,
 #ending1 {
     background-color: #313131;
+    display: none;
 }
-
-
 
 
 /*--------------DESIGN-------------*/
@@ -313,4 +314,8 @@ iframe {
         margin: 0 17vw 0 17vw;
     }
 
+}
+
+.ux {
+    margin-top: 0;
 }
